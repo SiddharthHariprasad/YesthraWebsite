@@ -1,6 +1,6 @@
 import { CardPanel, Carousel, Col, Row } from 'react-materialize';
 
-function MainPage() {
+function English() {
     return(
         <div id="main-content">
             <div className="carousel-holder red" id="image-carousel">
@@ -16,6 +16,7 @@ function MainPage() {
             {/* Parallax */}'
             {/* <Parallax image={<img src={banner3} alt="banner3" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
             {/* Feedback */}
+
             <section className="container section" id="feedback">
                 {/* new row inside the section for feedback title */}
                 <div className="row center-align">
@@ -54,4 +55,4 @@ function MainPage() {
     );
 }
 
-export default MainPage;
+export default English;
