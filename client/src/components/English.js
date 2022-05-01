@@ -1,4 +1,4 @@
-import { CardPanel, Carousel, Col, Row } from 'react-materialize';
+import { Button, CardPanel, Carousel, Col, Row, Icon } from 'react-materialize';
 
 function English() {
     return(
@@ -19,12 +19,12 @@ function English() {
 
             <section className="container section" id="feedback">
                 {/* new row inside the section for feedback title */}
-                <div className="row center-align">
+                <Row className="center-align">
                     {/* first column full size */}
-                    <div className="col s12">
+                    <Col s={12}>
                         <h2>Testimonials</h2>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
                 {/* new row for feedbacks */}
                 <Row className="center-align">
                     {/* first column */}
@@ -49,8 +49,26 @@ function English() {
                     </Col>
                 </Row>
             </section>
+            
             {/* Parallax */}
             {/* <Parallax image={<img src={banner4} alt="banner4" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
+
+            <section>
+                <Row className="center-align">
+                    {/* first column full size */}
+                    <Col s={12}>
+                        <Button
+                                href="/JoinUs"
+                                node="a"
+                                waves="light"
+                                className="red lighten white-text joinUsButton">
+                                    <Icon left>handshake</Icon>
+                                    <span className="button-text">Join Us</span>
+                            </Button>
+                    </Col>
+                </Row>
+            </section>
+
         </div>
     );
 }

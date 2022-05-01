@@ -1,4 +1,4 @@
-import { CardPanel, Carousel, Col, Row } from 'react-materialize';
+import { CardPanel, Carousel, Col, Row, Icon, Button } from 'react-materialize';
 
 function Malayalam() {
     return(
@@ -51,6 +51,23 @@ function Malayalam() {
             </section>
             {/* Parallax */}
             {/* <Parallax image={<img src={banner4} alt="banner4" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
+            
+            <section>
+                <Row className="center-align">
+                    {/* first column full size */}
+                    <Col s={12}>
+                        <Button
+                                href="/JoinUs"
+                                node="a"
+                                waves="light"
+                                className="red lighten white-text joinUsButton">
+                                    <Icon left>handshake</Icon>
+                                    <span className="button-text">Join Us</span>
+                            </Button>
+                    </Col>
+                </Row>
+            </section>
+
         </div>
     );
 }
