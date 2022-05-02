@@ -1,4 +1,4 @@
-import { Button, CardPanel, Carousel, Col, Row, Icon } from 'react-materialize';
+import { Button, Carousel, Col, Row, Icon, CardPanel } from 'react-materialize';
 
 function English() {
     return(
@@ -12,45 +12,38 @@ function English() {
             </div>
 
             <section className="container section" id="whatis">
-                {/* new row inside the section for feedback title */}
                 <Row className="center-align">
-                    {/* first column full size */}
-                    <Col s={12}>
+                    <CardPanel className="left-align blue-grey darken-2 white-text story-card">
                         <h2>What is YESTHRA ?</h2>
-                    </Col>
-                </Row>
-                {/* new row for feedbacks */}
-                <Row className="center-align">
-                    <div className="center-align">
                         <p>
-                        Excepteur et sint cillum quis incididunt consequat consectetur velit irure sint duis. Consequat irure amet sint enim nostrud. Consequat reprehenderit aliquip veniam proident ad elit consectetur sint excepteur esse proident ad consectetur ullamco. Esse commodo anim est sint esse irure ipsum labore officia exercitation est. Ipsum incididunt dolor anim aliquip deserunt dolore fugiat aliqua mollit in sit. Nulla anim occaecat reprehenderit officia laboris culpa commodo id deserunt fugiat Lorem. Tempor magna sunt in in non laboris non id deserunt exercitation.
+                            In the initial days of flood relief works in Kerala, we came across a heartbreaking scene, a mother sobbing, clutching her two kids close, around her ruined pieces of shirts and pants strewn about in the running mud. She was inconsolable, later we came to know that she was the only breadwinner in her family, looking after and raising her two kids on her own. She had lost her only livelihood and faced an uncertain future alone. We did our best to help her and her family during that time and that was when we came to know a shocking truth.
                         </p>
                         <p>
-                            Est aliquip cillum Lorem fugiat velit reprehenderit. Officia mollit Lorem esse sit non. Officia aliquip velit sit sint occaecat eiusmod do sit non in ex et. Quis mollit veniam et nulla nostrud officia ullamco anim velit pariatur occaecat. Voluptate sunt qui ut culpa.
+                            She and her family produced apparel for a quite well known local brand, but of the profits the brand enjoyed she and her family received only a very small portion. With the damage due to the floods, the orders were cancelled as they were left high and dry by the brand. During the relief works that followed we interacted with many more families who shared such plights and working with them allowed us to understand more about their situations and the problems that they face. The time we spent with them was also the time we saw how widespread exploitation and near poverty life was in the apparel making industry. Unless they were a big manufacturer or established designer it was very hard to grow and expand on their own, it was almost impossible to be competitive against the big-name brands by themselves.
                         </p>
                         <p>
-                        Sint officia Lorem nostrud proident duis cupidatat aliquip. Proident non et magna consequat qui ipsum voluptate commodo. Tempor duis nulla adipisicing officia enim aliquip in incididunt nostrud ullamco enim irure Lorem ea.
+                            Yesthra was formed to address their problems and come up with practical, real-world solutions for their concerns. To empower them to rise above on their own and create strong community movements that allow them to flourish and overcome the exploitation that they face. Providing them with the tools for dismantling the hold of foreign entities and big brands in the Indian apparel and fashion industry.
                         </p>
-                    </div>
-                </Row>
-            </section>
-
-            <section  className="container section" id="joinUsButtonSection">
-                <Row className="center-align">
-                    {/* first column full size */}
-                    <Col s={12}>
-                        <Button
-                                href="/JoinUs"
-                                node="a"
-                                waves="light"
-                                className="blue-grey darken-4 white-text joinUsButton">
-                                    <Icon left>handshake</Icon>
-                                    <span className="button-text">Join Us</span>
-                            </Button>
-                    </Col>
+                        <p>
+                            Through Yesthra we will provide a platform for them on which a much wider range of audiences can be reached, furthermore through unique and tailored marketing strategies we will transform these individual creators into renowned brands of their own. Even new designers or creators with no online presence or sales on their own can approach us for help in creating a portfolio, we will be providing our help in all sectors from photography and modelling to brand and logo designing to help them get started. Furthermore, by providing reliable logistics services we will make sure that their orders can be fulfilled without hiccups on a pan India and even global scale.
+                        </p>
+                        <Row className="center-align">
+                            {/* first column full size */}
+                            <Col s={12}>
+                                <h4>Be a part of the change</h4>
+                                <Button
+                                        href="/JoinUs"
+                                        node="a"
+                                        waves="light"
+                                        className="blue-grey darken-4 white-text joinUsButton">
+                                            <Icon left>handshake</Icon>
+                                            <span className="button-text">Join Us</span>
+                                    </Button>
+                            </Col>
+                        </Row>
+                    </CardPanel>
                 </Row>
             </section>
-
         </div>
     );
 }

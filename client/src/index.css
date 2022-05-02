@@ -1,18 +1,20 @@
 /* Custom CSS styling */
 
 /* Importing fonts */
-/* @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Anek+Malayalam&family=Catamaran&display=swap');
 
 /* fonts can be used using the following CSS rules */
 /* 
-    font-family: 'Abhaya Libre', serif;
-    font-family: 'Amiri', serif;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 */
 
 html {
     font-family: 'Roboto', serif;
     background-color: #a6a6a6;
 }
+
 
 header {
     background-color: white;
@@ -115,6 +117,7 @@ section > div > a {
     font-size: 1.5em;
 }
 
+
 .card .card-reveal {
     background-color: black;
     font-size: 1em;
@@ -130,7 +133,7 @@ section > div > a {
 .card .card-reveal{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-  }
+}
 
 .card-content {
     font-size: 0.75em;
@@ -150,18 +153,30 @@ section > div > a {
 }
 
 .joinUsButton {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 0.5em 4em 1.5em 4em;
     margin: 10px;
     
 }
-/* 
-.button-text {
-    padding: 20px;
-    margin: 20px;
-} */
 
-/* media */
+.tamil-text {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.malayalam-text {
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+.hindi-text {
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.story-card {
+    padding: 5%;
+    font-size: 1.25em;
+}
+
+/* media */ 
 
 @media screen and (max-width: 500px) {
     .carousel-image-1 {

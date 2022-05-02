@@ -1,4 +1,4 @@
-import { Button, CardPanel, Carousel, Col, Row, Icon } from 'react-materialize';
+import { Button, Carousel, Col, Row, Icon, CardPanel } from 'react-materialize';
 
 function Malayalam() {
     return(
@@ -10,63 +10,49 @@ function Malayalam() {
                     <div className="carousel-image-1"></div>
                 </Carousel>
             </div>
-            
-            {/* Parallax */}'
-            {/* <Parallax image={<img src={banner3} alt="banner3" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
-            {/* Feedback */}
 
-            <section className="container section" id="feedback">
-                {/* new row inside the section for feedback title */}
+            <section className="container section" id="whatis">
                 <Row className="center-align">
-                    {/* first column full size */}
-                    <Col s={12}>
-                        <h2>Testimonials</h2>
-                    </Col>
-                </Row>
-                {/* new row for feedbacks */}
-                <Row className="center-align">
-                    {/* first column */}
-                    <Col s={12} l={6}>
-                        {/* card div to give it card like styling */}
-                        <CardPanel className="card-panel center-align">
-                            {/* content of the card */}
-                            <h3>Lorem Ipsum</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tempore reprehenderit aut esse iure laborum fugit quisquam sequi cumque aliquid. Provident unde explicabo eaque nihil atque earum id, minima quibusdam.
-                            </p>
-                        </CardPanel>
-                    </Col>
-                    {/* second column */}
-                    <Col s={12} l={6}>
-                        <CardPanel className="card-panel center-align">
-                            <h3>Lorem Ipsum</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt dignissimos dolores fuga. Quidem, id, temporibus esse quos officiis ipsam explicabo sit tempora labore sapiente provident sint quis iste est.
-                            </p>
-                        </CardPanel>
-                    </Col>
-                </Row>
-            </section>
-            
-            {/* Parallax */}
-            {/* <Parallax image={<img src={banner4} alt="banner4" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
-
-            <section  className="container section" id="joinUsButtonSection">
-                <Row className="center-align">
-                    {/* first column full size */}
-                    <Col s={12}>
-                        <Button
-                                href="/JoinUs"
-                                node="a"
-                                waves="light"
-                                className="blue-grey darken-4 white-text joinUsButton">
-                                    <Icon left>handshake</Icon>
-                                    <span className="button-text">Join Us</span>
-                            </Button>
-                    </Col>
+                    <CardPanel className="left-align blue-grey darken-2 white-text story-card malayalam-text">
+                        <h2>എന്താണ് യെസ്ത്ര ?</h2>
+                        <p>
+                            2018ൽ കേരളത്തിൽ ഉണ്ടായ പ്രളയത്തിൻ്റെ ദുരിതാശ്വാസ പ്രവർത്തനങ്ങളുടെ പ്രാരംഭ നാളുകളിലായിരുന്നു ഒഴുകിപ്പരന്ന ചെളിയിൽ ചിതറിക്കിടക്കുന്ന വീണ്ടെടുക്കാനാവാത്ത വിധം നശിച്ച കുറേ ഷർട്ടുകളുടെയും പാന്റുകളുടെയും ചുറ്റുമിരുന്ന്, രണ്ട് കുട്ടികളെ ചേർത്തുപിടിച്ച് ഒരു അമ്മ കരയുന്ന ഹൃദയഭേദകമായ ആ കാഴ്ച ഞങ്ങൾ കണ്ടത്. എത്ര ശ്രമിച്ചിട്ടും അവരെ ആശ്വസിപ്പിക്കാൻ ഞങ്ങൾക്ക് സാധിച്ചില്ല.
+                        </p>
+                        <p>
+                            പിന്നീട് ഞങ്ങൾ അറിഞ്ഞു, അവരുടെ കുടുംബത്തിൻ്റെ ഏക അത്താണിയായിരുന്നു ആ സ്ത്രീ. തൻ്റെ രണ്ടു കുഞ്ഞുങ്ങളെയും ഒരച്ഛന്റെ സഹായമില്ലാതെ വളർത്തുന്ന ആ സ്ത്രീയുടെ ഏക ഉപജീവനമാർഗമായിരുന്നു അന്നത്തെ പ്രളയത്തിൽ നഷ്ടപ്പെട്ടത്. അനിശ്ചിതമായ ഭാവിയെ അവർ ഒറ്റയ്ക്ക് അഭിമുഖീകരിച്ചു കൊണ്ടിരുന്ന ആ സമയത്ത് അവരെ പരമാവധി സഹായിക്കാൻ ഞങ്ങൾ ശ്രമിച്ചിരുന്നു. ആ നാളുകളിലാണ് അവരെയും ആ പ്രദേശത്ത് ഇതേ തൊഴിൽ ചെയ്ത് താമസിച്ചിരുന്ന മറ്റനവധി കുടുംബങ്ങളെ പറ്റിയുമുള്ള കാര്യങ്ങൾ ഞങ്ങൾ തിരിച്ചറിഞ്ഞത്. ഇവരെല്ലാം തന്നെ വിപണിയിലെ പ്രമുഖരായ ഒരു തദ്ദേശീയ ബ്രാൻഡിനായി വസ്ത്രങ്ങൾ നിർമ്മിച്ചു കൊണ്ടിരുന്നവരാണ്. എന്നാൽ ബ്രാൻഡിന് ലഭിച്ചിരുന്ന ലാഭത്തിൽ നിന്നും ഈ കുടുംബങ്ങൾക്ക് കിട്ടുന്നത് അതിന്റെ വളരെ ചെറിയ ഒരു അംശം മാത്രമാണ്. വെള്ളപ്പൊക്കത്തിൽ നാശനഷ്ടമുണ്ടായതോടെ ആ ബ്രാൻഡ് ഇവർക്ക് കൊടുത്ത ഓർഡറുകൾ റദ്ദാക്കിയെന്നും ഇവർക്ക് യാതൊരു വിധ സഹായങ്ങളും ചെയ്തില്ലെന്നും ഞങ്ങൾക്ക് തുടർന്നുള്ള ദിവസങ്ങളിൽ അറിയാൻ പറ്റി.
+                        </p>
+                        <p>
+                            ഇത്തരം ദുരവസ്ഥകൾ പങ്കുവെച്ച നിരവധി കുടുംബങ്ങളുമായി ഞങ്ങൾ ആശയവിനിമയം നടത്തുകയും അവരോടൊപ്പം പ്രവർത്തിക്കുകയും അവരുടെ സാഹചര്യങ്ങളെക്കുറിച്ചും അവർ അഭിമുഖീകരിക്കുന്ന പ്രശ്നങ്ങളെക്കുറിച്ചും കൂടുതൽ മനസ്സിലാക്കാൻ ശ്രമിക്കുകയും ചെയ്തു. വസ്ത്രനിർമ്മാണ വ്യവസായത്തിൽ നടന്നു വരുന്ന ചൂഷണവും നിർമാതാക്കൾ അനുഭവിക്കുന്ന സാമ്പത്തിക പരാധീനതകളും എത്രമാത്രം വ്യാപകമാണെന്ന് ഞങ്ങൾ തിരിച്ചറിഞ്ഞ സമയം കൂടിയാണ് അത്.
+                        </p>
+                        <p>
+                            സ്വന്തമായി വസ്ത്രങ്ങൾ ഉണ്ടാക്കുന്നവരിൽ വലിയ അളവിൽ വസ്ത്ര ഉൽപാദനം ചെയ്യാത്തവർക്കും, പേരുകേട്ട ഡിസൈനർമാർ അല്ലാത്തവർക്കും, ഉയർന്നു വരാനും തൻ്റെ ബിസിനസ് വികസിപ്പിക്കാനും വളരെ ബുദ്ധിമുട്ടായിരുന്നു. വലിയ പേരുള്ള ബ്രാൻഡുകൾക്കെതിരെ വിപണിയിൽ മത്സരിക്കുക എന്നത് അവർക്ക് മിക്കപ്പോഴും അസാധ്യമായിരുന്നു.
+                        </p>
+                        <p>
+                            നമ്മുടെ രാജ്യത്ത് അങ്ങോളമിങ്ങോളം ഉള്ള ഇത്തരം നിരവധി ആളുകളുടെ പ്രശ്‌നങ്ങൾ പരിഹരിക്കുവാനും അവരുടെ ആശങ്കകൾക്ക് പ്രായോഗികവും യഥാർത്ഥവുമായ പരിഹാരങ്ങൾ കൊണ്ടുവരുന്നതിനും ആയാണ് ഞങ്ങൾ യെസ്ത്ര രൂപീകരിച്ചത്.
+                        </p>
+                        <p>
+                            അവർ ഇന്ന് നേരിടുന്ന ചൂഷണങ്ങളെ അതിജീവിക്കുവാനും അവരുടെ ജീവിതങ്ങൾ അഭിവൃദ്ധിപ്പെടുത്തുവാനും ഉതകുന്ന തരത്തിലുള്ള കമ്മ്യൂണിറ്റികളുടെ നിർമാണം വഴി സ്വന്തമായി ഉയരാൻ അവരെ പ്രാപ്തരാക്കുകയും, ഇന്ത്യയിൽ വസ്ത്രനിർമാണ മേഖലയിലും ഫാഷൻ വ്യവസായത്തിലും നിലനിൽക്കുന്ന വിദേശിയും സ്വദേശിയും ആയ വൻകിട ബ്രാൻഡുകളുടെ ഇടയിൽ തങ്ങളുടേതായ ഒരു വിപണി വിഹിതം കണ്ടെത്തുവാൻ അവരെ സഹായിക്കുകയും ചെയ്യുക എന്നതാണ് ഞങ്ങളുടെ ലക്ഷ്യം.
+                        </p>
+                        <p>
+                            യസ്ത്രയിലൂടെ ഞങ്ങൾ അവർക്ക് ഒരു പ്ലാറ്റ്ഫോം നൽകുകയും അതിലൂടെ കൂടുതൽ വിശാലമായ പ്രേക്ഷകസമൂഹത്തിലേക്ക് എത്തിച്ചേരാൻ അവരെ സഹായിക്കുകയും ചെയ്യുന്നു. കൂടാതെ അതുല്യവും അനുയോജ്യമായതുമായ മാർക്കറ്റിംഗ് തന്ത്രങ്ങളിലൂടെ ഞങ്ങൾ ഈ വ്യക്തിഗത നിർമാതാക്കളെ അവരുടെ തനതായ ബ്രാൻഡുകളാക്കി മാറ്റുന്നു. സ്വന്തമായി ഓൺലൈൻ സാന്നിധ്യമോ വിൽപ്പനയോ ഇല്ലാത്ത പുതിയ ഡിസൈനർമാർക്കും നിർമാതാക്കൾക്കും പോലും ഒരു പോർട്ട്‌ഫോളിയോ ഉണ്ടാക്കുന്നതിനുള്ള സഹായത്തിനായി ഞങ്ങളെ സമീപിക്കാം. ഫോട്ടോഗ്രാഫിയും മോഡലിംഗും മുതൽ ബ്രാൻഡ്, ലോഗോ ഡിസൈനിംഗ് തുടങ്ങി എല്ലാ മേഖലകളിലും ഞങ്ങളുടെ സഹായം ഉണ്ടാവുന്നതാണ്. ഇവയൊന്നും കൂടാതെ വിശ്വസനീയമായ ലോജിസ്റ്റിക് സേവനങ്ങൾ നൽകുന്നത് വഴി അവരുടെ ഓർഡറുകൾ ഇന്ത്യയിലും ആഗോള തലത്തിലും തടസ്സങ്ങളില്ലാതെ ഉപഭോക്താക്കൾക്ക് എത്തിക്കാൻ കഴിയുമെന്നും ഞങ്ങൾ യെസ്ത്രയിലൂടെ ഉറപ്പാക്കും.
+                        </p>
+                        <Row className="center-align">
+                            {/* first column full size */}
+                            <Col s={12}>
+                                <h4 className="malayalam-text">ഈ മാറ്റത്തിന്റെ ഭാഗമാകൂ</h4>
+                                <Button
+                                        href="/JoinUs"
+                                        node="a"
+                                        waves="light"
+                                        className="blue-grey darken-4 white-text joinUsButton">
+                                            <Icon left>handshake</Icon>
+                                            <span className="button-text">Join Us</span>
+                                    </Button>
+                            </Col>
+                        </Row>
+                    </CardPanel>
                 </Row>
             </section>
-
         </div>
     );
 }
