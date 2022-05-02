@@ -1,13 +1,13 @@
-import { CardPanel, Carousel, Col, Row, Icon, Button } from 'react-materialize';
+import { Button, CardPanel, Carousel, Col, Row, Icon } from 'react-materialize';
 
 function Hindi() {
     return(
         <div id="main-content">
-            <div className="carousel-holder red" id="image-carousel">
+            <div className="carousel-holder" id="image-carousel">
                 {/* Photo Carousel */}
                 <Carousel carouselId="Carousel-1" options={{ fullWidth: true}}>
                     {/* carousel div where the links and images */}
-                    <div className="black carousel-image-1">
+                    <div className="carousel-image-1">
                         <a href="/Services" className="carousel-link" alt="go to branding">.</a>
                     </div>
                 </Carousel>
@@ -19,12 +19,12 @@ function Hindi() {
 
             <section className="container section" id="feedback">
                 {/* new row inside the section for feedback title */}
-                <div className="row center-align">
+                <Row className="center-align">
                     {/* first column full size */}
-                    <div className="col s12">
+                    <Col s={12}>
                         <h2>Testimonials</h2>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
                 {/* new row for feedbacks */}
                 <Row className="center-align">
                     {/* first column */}
@@ -49,9 +49,10 @@ function Hindi() {
                     </Col>
                 </Row>
             </section>
+            
             {/* Parallax */}
             {/* <Parallax image={<img src={banner4} alt="banner4" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
-            
+
             <section>
                 <Row className="center-align">
                     {/* first column full size */}
@@ -60,7 +61,7 @@ function Hindi() {
                                 href="/JoinUs"
                                 node="a"
                                 waves="light"
-                                className="red lighten white-text joinUsButton">
+                                className="amber lighten-2 black-text joinUsButton">
                                     <Icon left>handshake</Icon>
                                     <span className="button-text">Join Us</span>
                             </Button>

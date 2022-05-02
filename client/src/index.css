@@ -1,33 +1,33 @@
 /* Custom CSS styling */
 
 /* Importing fonts */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
 
 /* fonts can be used using the following CSS rules */
 /* 
-    font-family: 'Caveat', cursive;
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Abhaya Libre', serif;
+    font-family: 'Amiri', serif;
 */
 
 html {
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', serif;
+}
+
+header {
+    background-color: transparent;
 }
 
 header, .navbar {
-    background-color: #ff0000;
+    /* background-color: white; */
+    background-color: transparent;
 }
 
 footer a,.footer-copyright {
-    background-color: #ff0000; 
+    background-color: #a6a6a6; 
 }
 
 .page-footer, .footer-copyright {
-    background-color: #ff0000;
-}
-
-.footer-btn {
-    background-color: #5a0000;
+    background-color: #706f6f
 }
 
 p, footer a,.footer-copyright {
@@ -51,13 +51,13 @@ p, footer a,.footer-copyright {
 }
 
 .sidenav {
-    background-color: #f75959;
+    background-color: #a6a6a6;
     color: black;
 }
 
 hr{
     height: 1px;
-    background-color: #ff4b4b;
+    background-color: #706f6f;
     border: none;
 }
 
@@ -85,7 +85,7 @@ nav .brand-logo {
 }
 
 .carousel-image-1 {
-    background-image: url("./components/images/banner1.gif");
+    background-image: url("./components/images/banner.png");
     background-size: cover;
     background-position: center;
 }
@@ -99,6 +99,10 @@ nav .brand-logo {
 
 .carousel.carousel-slider .carousel-item {
     height: 100%;
+}
+
+#main-content {
+    background-color: #a6a6a6;
 }
 
 section > div > a {
@@ -157,16 +161,11 @@ section > div > a {
     margin: 20px;
 } */
 
-.main-content {
-    background-image: url("./components/images/constellation.svg");
-    background-size: cover;
-}
-
 /* media */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .carousel-image-1 {
-        background-image: url("./components/images/banner2.gif");
+        background-image: url("./components/images/banner2.png");
         background-size: cover;
         background-position: center;
     }
@@ -176,9 +175,9 @@ section > div > a {
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 700px) {
+@media screen and (min-width: 500px) and (max-width: 800px) {
     .carousel-image-1 {
-        background-image: url("./components/images/banner3.gif");
+        background-image: url("./components/images/banner1.png");
         background-size: cover;
         background-position: center;
     }

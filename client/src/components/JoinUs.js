@@ -47,7 +47,7 @@ function JoinUs() {
                                 href="tel:+919074342615"
                                 node="a"
                                 waves="light"
-                                className="red lighten-1 white-text">
+                                className="amber lighten-2 white-text">
                                     <Icon left>phone</Icon>
                                     <span className="button-text">+919074342615</span>
                             </Button>
@@ -56,7 +56,7 @@ function JoinUs() {
                                 href="mailto:connect@promocrew.in"
                                 node="a"
                                 waves="light"
-                                className="red lighten-1 white-text">
+                                className="amber lighten-2 white-text">
                                     <Icon left>mail</Icon>
                                     <span className="button-text">connect@promocrew.in</span>
                             </Button>

@@ -3,13 +3,11 @@ import { Button, CardPanel, Carousel, Col, Row, Icon } from 'react-materialize';
 function English() {
     return(
         <div id="main-content">
-            <div className="carousel-holder red" id="image-carousel">
+            <div className="carousel-holder" id="image-carousel">
                 {/* Photo Carousel */}
                 <Carousel carouselId="Carousel-1" options={{ fullWidth: true}}>
                     {/* carousel div where the links and images */}
-                    <div className="black carousel-image-1">
-                        <a href="/Services" className="carousel-link" alt="go to branding">.</a>
-                    </div>
+                    <div className="carousel-image-1"></div>
                 </Carousel>
             </div>
             
@@ -53,7 +51,7 @@ function English() {
             {/* Parallax */}
             {/* <Parallax image={<img src={banner4} alt="banner4" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
 
-            <section>
+            <section  className="container section" id="joinUsButtonSection">
                 <Row className="center-align">
                     {/* first column full size */}
                     <Col s={12}>
@@ -61,7 +59,7 @@ function English() {
                                 href="/JoinUs"
                                 node="a"
                                 waves="light"
-                                className="red lighten white-text joinUsButton">
+                                className="blue-grey darken-4 white-text joinUsButton">
                                     <Icon left>handshake</Icon>
                                     <span className="button-text">Join Us</span>
                             </Button>
