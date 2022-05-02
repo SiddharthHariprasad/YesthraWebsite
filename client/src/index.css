@@ -1,13 +1,14 @@
 /* Custom CSS styling */
 
 /* Importing fonts */
-@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Anek+Malayalam&family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Anek+Malayalam&family=Catamaran&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* fonts can be used using the following CSS rules */
 /* 
     font-family: 'Anek Devanagari', sans-serif;
     font-family: 'Anek Malayalam', sans-serif;
     font-family: 'Catamaran', sans-serif;
+    font-family: 'Roboto', sans-serif;
 */
 
 html {
