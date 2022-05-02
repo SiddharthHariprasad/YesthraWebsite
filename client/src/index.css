@@ -11,15 +11,15 @@
 
 html {
     font-family: 'Roboto', serif;
+    background-color: #a6a6a6;
 }
 
 header {
-    background-color: transparent;
+    background-color: white;
 }
 
 header, .navbar {
-    /* background-color: white; */
-    background-color: transparent;
+    background-color: white;
 }
 
 footer a,.footer-copyright {

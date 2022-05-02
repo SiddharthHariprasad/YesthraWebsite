@@ -10,46 +10,30 @@ function English() {
                     <div className="carousel-image-1"></div>
                 </Carousel>
             </div>
-            
-            {/* Parallax */}'
-            {/* <Parallax image={<img src={banner3} alt="banner3" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
-            {/* Feedback */}
 
-            <section className="container section" id="feedback">
+            <section className="container section" id="whatis">
                 {/* new row inside the section for feedback title */}
                 <Row className="center-align">
                     {/* first column full size */}
                     <Col s={12}>
-                        <h2>Testimonials</h2>
+                        <h2>What is YESTHRA ?</h2>
                     </Col>
                 </Row>
                 {/* new row for feedbacks */}
                 <Row className="center-align">
-                    {/* first column */}
-                    <Col s={12} l={6}>
-                        {/* card div to give it card like styling */}
-                        <CardPanel className="card-panel center-align">
-                            {/* content of the card */}
-                            <h3>Lorem Ipsum</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tempore reprehenderit aut esse iure laborum fugit quisquam sequi cumque aliquid. Provident unde explicabo eaque nihil atque earum id, minima quibusdam.
-                            </p>
-                        </CardPanel>
-                    </Col>
-                    {/* second column */}
-                    <Col s={12} l={6}>
-                        <CardPanel className="card-panel center-align">
-                            <h3>Lorem Ipsum</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt dignissimos dolores fuga. Quidem, id, temporibus esse quos officiis ipsam explicabo sit tempora labore sapiente provident sint quis iste est.
-                            </p>
-                        </CardPanel>
-                    </Col>
+                    <div className="center-align">
+                        <p>
+                        Excepteur et sint cillum quis incididunt consequat consectetur velit irure sint duis. Consequat irure amet sint enim nostrud. Consequat reprehenderit aliquip veniam proident ad elit consectetur sint excepteur esse proident ad consectetur ullamco. Esse commodo anim est sint esse irure ipsum labore officia exercitation est. Ipsum incididunt dolor anim aliquip deserunt dolore fugiat aliqua mollit in sit. Nulla anim occaecat reprehenderit officia laboris culpa commodo id deserunt fugiat Lorem. Tempor magna sunt in in non laboris non id deserunt exercitation.
+                        </p>
+                        <p>
+                            Est aliquip cillum Lorem fugiat velit reprehenderit. Officia mollit Lorem esse sit non. Officia aliquip velit sit sint occaecat eiusmod do sit non in ex et. Quis mollit veniam et nulla nostrud officia ullamco anim velit pariatur occaecat. Voluptate sunt qui ut culpa.
+                        </p>
+                        <p>
+                        Sint officia Lorem nostrud proident duis cupidatat aliquip. Proident non et magna consequat qui ipsum voluptate commodo. Tempor duis nulla adipisicing officia enim aliquip in incididunt nostrud ullamco enim irure Lorem ea.
+                        </p>
+                    </div>
                 </Row>
             </section>
-            
-            {/* Parallax */}
-            {/* <Parallax image={<img src={banner4} alt="banner4" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
 
             <section  className="container section" id="joinUsButtonSection">
                 <Row className="center-align">

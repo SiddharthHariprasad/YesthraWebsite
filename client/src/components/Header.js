@@ -26,7 +26,7 @@ const Header = () => {
                     <NavItem href="/Malayalam" className="blue-grey-text text-darken-4 waves-effect waves-light">Malayalam</NavItem>
                     <NavItem href="/Tamil" className="blue-grey-text text-darken-4 waves-effect waves-light">Tamil</NavItem>
                     <NavItem href="/Hindi" className="blue-grey-text text-darken-4 waves-effect waves-light">Hindi</NavItem>
-                    <NavItem href="/JoinUs" className="blue-grey-text text-darken-4 waves-effect waves-light">Join Us</NavItem>
+                    {/* <NavItem href="/JoinUs" className="blue-grey-text text-darken-4 waves-effect waves-light">Join Us</NavItem> */}
                     {/* <NavItem href="/AboutUs" className="waves-effect waves-light">About Us</NavItem> */}
                 </Navbar>
             </div>
