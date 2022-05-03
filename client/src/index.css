@@ -184,9 +184,9 @@ iframe {
 
 /* media */ 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
     .carousel-image-1 {
-        background-image: url("./components/images/banner2.png");
+        background-image: url("./components/images/banner3.png");
         background-size: cover;
         background-position: center;
     }
@@ -195,6 +195,16 @@ iframe {
         font-size: 2em;    
     }
 }
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .carousel-image-1 {
+        background-image: url("./components/images/banner2.png");
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
     .carousel-image-1 {
