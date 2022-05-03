@@ -36,7 +36,7 @@ function JoinUs() {
         <div id="main-content">
             <div className="container joinUsPage">
                 <h1>Join Us</h1>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCZxqZzC0ELcqu60kYRycJzQbADVZeV1wjeKUeJTN4c_vOzQ/viewform?embedded=true" width="640" height="3898" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCZxqZzC0ELcqu60kYRycJzQbADVZeV1wjeKUeJTN4c_vOzQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
                 <br />
                 <div>
                 <h2>Contact Us</h2>

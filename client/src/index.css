@@ -177,6 +177,11 @@ section > div > a {
     font-size: 1.25em;
 }
 
+iframe {
+    width: 640px; 
+    height: 3898px;
+}
+
 /* media */ 
 
 @media screen and (max-width: 500px) {
@@ -340,5 +345,20 @@ section > div > a {
         padding: 0.5em 4em 4em 4em;
         margin: 10px;
         
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    iframe {
+        width: 200px;
+        height: 5598px;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    iframe {
+        width: 400px;
+        height: 4198px;
     }
 }
