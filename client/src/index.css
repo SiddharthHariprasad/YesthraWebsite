@@ -227,7 +227,7 @@ section > div > a {
         color: white;
         height: 300px;
     }
-    
+
 }
 
 @media screen and (min-width: 500px) {
@@ -332,4 +332,13 @@ section > div > a {
         height: 300px;
     }
     
+}
+
+@media screen and (max-width: 400px) {
+    .joinUsButton {
+        font-size: 0.5em;
+        padding: 0.5em 4em 4em 4em;
+        margin: 10px;
+        
+    }
 }
